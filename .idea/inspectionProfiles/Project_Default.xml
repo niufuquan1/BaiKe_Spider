@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Spider.Downloader.settings" />
+          <option value="Spider.DB.settings" />
+          <option value="DB" />
+          <option value="Downloader" />
+          <option value="Parser" />
+          <option value="UrlManager" />
+          <option value="settings" />
+          <option value="Spider.Downloader.SERVICE_ARGS" />
+          <option value="Spider.DownLoader.SERVICE_ARGS" />
+          <option value="Spider.dLoader.SERVICE_ARGS" />
+          <option value="DownLoader" />
+          <option value="Spider.DB.MONGO_URL" />
+          <option value="Spider.DB.MONGO_DB" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
