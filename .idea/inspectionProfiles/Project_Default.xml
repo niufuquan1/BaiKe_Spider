@@ -17,6 +17,12 @@
           <option value="DownLoader" />
           <option value="Spider.DB.MONGO_URL" />
           <option value="Spider.DB.MONGO_DB" />
+          <option value="Spider_v2.DownLoader.SERVICE_ARGS" />
+          <option value="Spider_v2.Log.DEFAULT_LOG_FMT" />
+          <option value="Spider_v2.Log.DEFUALT_LOG_DATEFMT" />
+          <option value="Spider_v2.Log.DEFAULT_LOG_FILENAME" />
+          <option value="Spider_v2.Log.DEFAULT_LOG_LEVEL" />
+          <option value="Log" />
         </list>
       </option>
     </inspection_tool>
