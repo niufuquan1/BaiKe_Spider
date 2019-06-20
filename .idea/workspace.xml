@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da5a8e26-8f52-456d-a5a4-db7923f1d197" name="Default Changelist" comment="">
+    <list default="true" id="da5a8e26-8f52-456d-a5a4-db7923f1d197" name="Default Changelist" comment="修改了一下markdown的格式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +42,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="311">
-                <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <first_editor relative-caret-position="230">
+                <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -388,7 +387,7 @@
       <workItem from="1560995197226" duration="4467000" />
       <workItem from="1560999686820" duration="418000" />
       <workItem from="1561000123897" duration="15567000" />
-      <workItem from="1561017673088" duration="10303000" />
+      <workItem from="1561017673088" duration="10350000" />
     </task>
     <task id="LOCAL-00001" summary="第一版&#10;Spider1.py -u url -d deep -k keywords&#10;注：没有对多义词进行处理&#10;如果没有输入url，默认入口url为https://baike.baidu.com">
       <created>1560924543406</created>
@@ -418,11 +417,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561033839629</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改了一下markdown的格式">
+      <created>1561034060078</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561034060078</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131661000" />
+    <option name="totallyTimeSpent" value="131708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,8 +729,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="311">
-            <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <first_editor relative-caret-position="230">
+            <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>
