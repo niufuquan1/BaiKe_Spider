@@ -6,6 +6,7 @@
 # @Software: PyCharm
 import argparse
 import logging
+import logging.handlers
 import os
 import queue
 import re
@@ -14,6 +15,7 @@ import threading
 import time
 import traceback
 from urllib.parse import urljoin
+
 import pymongo
 import requests
 from bs4 import BeautifulSoup
@@ -22,7 +24,6 @@ from selenium.common.exceptions import TimeoutException, StaleElementReferenceEx
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-import logging.handlers
 
 defaultUrl = "https://baike.baidu.com/"
 defaultDeep = 1
@@ -75,6 +76,7 @@ class Logger(object):
             logging.basicConfig(level=logging.NOTSET)  # 设置,不打印小于4级别的日志
         return LOGGER  # 返回logging实例
 
+
 class MongoDB(object):
     def __init__(self, opts, logger):
         self.opts = opts
@@ -84,7 +86,7 @@ class MongoDB(object):
             self.client = pymongo.MongoClient(MONGO_URL)
             self.db = self.client[MONGO_DB]
         except Exception as e:
-            toLogger(logger, self.loglevel, e, True)
+            toLogger(logger, 2, e, True)
             return -1
 
     def saveToMongoDB(self, data):
@@ -92,7 +94,7 @@ class MongoDB(object):
         try:
             self.db[title].insert_one(data)
         except Exception as e:
-            toLogger(self.logger, self.loglevel, e, True)
+            toLogger(self.logger, 2, e, True)
 
 
 class Spider(object):
@@ -109,6 +111,7 @@ class Spider(object):
     >>> s.getPageContent(c.url,c.keyword,c.deep,True)
     True
     '''
+
     def __init__(self, opts, tp, logger):
         self.deep = opts.deep  # 指定网页的抓取深度
         self.url = opts.url  # 指定网站url
@@ -151,9 +154,9 @@ class Spider(object):
                 submit.click()
                 result = browser.page_source
             except TimeoutException as e:
-                toLogger(self.logger, self.loglevel, e, True)
+                toLogger(self.logger, 2, e, True)
             except StaleElementReferenceException as e:
-                toLogger(self.logger, self.loglevel, e, True)
+                toLogger(self.logger, 2, e, True)
             finally:
                 self.flag = False
                 browser.close()
@@ -172,7 +175,7 @@ class Spider(object):
                     response.encoding = 'utf-8'
                     result = response.text
                 except requests.HTTPError as e:
-                    toLogger(self.logger, self.loglevel, e, True)
+                    toLogger(self.logger, 2, e, True)
                     return -1
 
         if self.loglevel > 3:
@@ -180,7 +183,7 @@ class Spider(object):
         try:
             self.parse(url, result, keyword, deep)  # 分析页面中的url,持久化网页的内容
         except Exception as e:
-            toLogger(self.logger, self.loglevel, e, True)
+            toLogger(self.logger, 2, e, True)
             return -1
         else:
             if self.loglevel > 3:
@@ -189,7 +192,6 @@ class Spider(object):
 
     def parse(self, url, htmlCont, keyword, deep):
         db = MongoDB(self.opts, self.logger)
-
         soup = BeautifulSoup(htmlCont, 'html.parser')
         urls = soup.find_all('a', href=re.compile(r'/item/*'))
         if deep > 1:
@@ -200,17 +202,30 @@ class Spider(object):
                 newFullUrl = urljoin("https://baike.baidu.com/", newUrl)
                 self.tp.addJob(self.getPageContent, url=newFullUrl, keyword=keyword, deep=deep - 1,
                                flag=False)  # 递归调用,直到符合的深度
-        data = {}
-        data['url'] = url
-        title = soup.find('dd', class_='lemmaWgt-lemmaTitle-title').find('h1').get_text()
-        data['title'] = title
-        summary = soup.find(name='div', attrs={"class": "lemma-summary"}).get_text()
-        data['summary'] = summary
-        db.saveToMongoDB(data)
+        try:
+            data = {}
+            data['url'] = url
+            title = soup.find('dd', class_='lemmaWgt-lemmaTitle-title').find('h1').get_text()
+            summary = soup.find(name='div', attrs={"class": "lemma-summary"}).get_text()
+            if (not title is None):
+                # 确保表名存在即可
+                data['title'] = title
+                data['summary'] = summary
+                db.saveToMongoDB(data)
+        except AttributeError as e:
+            toLogger(self.logger, 2, e, True)
+        except Exception as e:
+            toLogger(self.logger, 2, e, True)
 
     def work(self):
         self.tp.addJob(self.getPageContent, url=self.url, keyword=self.keyword, deep=self.deep, flag=True)
+        # while( not self.tp.workQueue.empty()):
+        #     print("jinrule!")
+        #     time.sleep(10)
+        #     Num = self.tp.workQueue.qsize()
+        #     print("现在还存在有 %d 个进程，程序仍未结束" % Num)
         self.tp.waitForComplete()
+        print("程序结束！")
 
 
 class SpiderThread(threading.Thread):
@@ -278,9 +293,9 @@ def toLogger(logger, level, message, error=False):
     :param error:错误标记,为True则标记为错误日志，启动下面的if语句
     :return:无
     '''
-    getattr(logger, LEVELS.get(level, 'WARNING').lower())(message)
+    getattr(logger, LEVELS.get(level).lower())(message)
     if error:  # 当发现是错误日志,还会记录错误的堆栈信息
-        getattr(logger, LEVELS.get(level, 'WARNING').lower())(traceback.format_exc())
+        getattr(logger, LEVELS.get(level, 'ERROR').lower())(traceback.format_exc())
 
 
 def argParse():

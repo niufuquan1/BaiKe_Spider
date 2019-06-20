@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da5a8e26-8f52-456d-a5a4-db7923f1d197" name="Default Changelist" comment="修改了一下markdown的格式">
+    <list default="true" id="da5a8e26-8f52-456d-a5a4-db7923f1d197" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider_v3/BaiKeSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider_v3/BaiKeSpider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,13 +27,16 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BaiKe_Spider" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spider_v3/BaiKeSpider.py">
+        <entry file="file://$PROJECT_DIR$/Spider_v4/BaiKeSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4829">
-              <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+            <state relative-caret-position="1355">
+              <caret line="206" column="29" selection-start-line="206" selection-start-column="29" selection-end-line="206" selection-end-column="29" />
               <folding>
                 <element signature="e#145#160#0" expanded="true" />
               </folding>
@@ -41,9 +47,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="230">
-                <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="228">
+                <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -51,45 +57,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spider_v2/Scheduler.py">
+        <entry file="file://$PROJECT_DIR$/Spider_v3/BaiKeSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="42" column="98" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="98" />
+            <state relative-caret-position="97">
+              <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
               <folding>
-                <element signature="e#144#159#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spider/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spider_v2/DB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-              <folding>
-                <element signature="e#136#146#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spider_v2/DownLoader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1774">
-              <caret line="84" column="21" lean-forward="true" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
-              <folding>
-                <element signature="e#144#176#0" expanded="true" />
+                <element signature="e#145#160#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +85,7 @@
       <find>getPageContent</find>
       <find>lower</find>
       <find>saveToMongoDB</find>
+      <find>summary</find>
     </findStrings>
     <replaceStrings>
       <replace>saveQueue</replace>
@@ -165,8 +139,9 @@
         <option value="$PROJECT_DIR$/Spider_v3/mytest.py" />
         <option value="$PROJECT_DIR$/Spider_v3/Parser.py" />
         <option value="$PROJECT_DIR$/Spider_v3/BaiKeSpider.log/2019-06-20.txt" />
-        <option value="$PROJECT_DIR$/Spider_v3/BaiKeSpider.py" />
         <option value="$PROJECT_DIR$/Spider_v2/Scheduler.py" />
+        <option value="$PROJECT_DIR$/Spider_v3/BaiKeSpider.py" />
+        <option value="$PROJECT_DIR$/Spider_v4/BaiKeSpider.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -209,6 +184,11 @@
               <item name="BaiKe_Spider" type="462c0819:PsiDirectoryNode" />
               <item name="Spider_v3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BaiKe_Spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiKe_Spider" type="462c0819:PsiDirectoryNode" />
+              <item name="Spider_v4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -220,7 +200,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spider_v3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spider_v4" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -229,12 +209,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\nfuqu\PycharmProjects\BaiKe_Spider\Spider_v3" />
-      <recent name="C:\Users\nfuqu\PycharmProjects\BaiKe_Spider\Spider_v2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nfuqu\PycharmProjects\BaiKe_Spider\Spider1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nfuqu\PycharmProjects\BaiKe_Spider\Spider_v4" />
+      <recent name="C:\Users\nfuqu\PycharmProjects\BaiKe_Spider\Spider_v3" />
+      <recent name="C:\Users\nfuqu\PycharmProjects\BaiKe_Spider\Spider_v2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -387,7 +368,7 @@
       <workItem from="1560995197226" duration="4467000" />
       <workItem from="1560999686820" duration="418000" />
       <workItem from="1561000123897" duration="15567000" />
-      <workItem from="1561017673088" duration="10350000" />
+      <workItem from="1561017673088" duration="18563000" />
     </task>
     <task id="LOCAL-00001" summary="第一版&#10;Spider1.py -u url -d deep -k keywords&#10;注：没有对多义词进行处理&#10;如果没有输入url，默认入口url为https://baike.baidu.com">
       <created>1560924543406</created>
@@ -424,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561034060078</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改了一下markdown的格式">
+      <created>1561034240280</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561034240280</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131708000" />
+    <option name="totallyTimeSpent" value="139921000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,9 +431,9 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19369973" />
+      <window_info id="Structure" order="0" sideWeight="0.16997167" side_tool="true" weight="0.16621985" />
+      <window_info id="Favorites" order="1" sideWeight="0.25448027" side_tool="true" weight="0.19369973" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.83002836" visible="true" weight="0.16621985" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31161472" />
@@ -457,7 +445,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.22096318" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49865952" visible="true" weight="0.2719547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49865952" visible="true" weight="0.3512748" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.38101983" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -519,9 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/ghostdriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spider/Parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -535,13 +520,6 @@
     <entry file="file://$PROJECT_DIR$/Spider_v2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Spider_v2/parse.log" />
     <entry file="file://$PROJECT_DIR$/Spider_v2/log" />
-    <entry file="file://$PROJECT_DIR$/Spider_v2/ghostdriver.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spider_v2/BaiKeSpiderLog/2019-06-19.txt" />
     <entry file="file://$PROJECT_DIR$/Spider_v2/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -584,7 +562,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spider_v3/myLog/2019-06-20.txt" />
     <entry file="file://$PROJECT_DIR$/Spider_v3/MySpiderLog/2019-06-20.txt" />
-    <entry file="file://$PROJECT_DIR$/Spider_v3/ghostdriver.log" />
     <entry file="file://$PROJECT_DIR$/Spider_v3/mytest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -716,10 +693,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Spider_v2/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider_v4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider_v3/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Spider_v3/BaiKeSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4829">
-          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        <state relative-caret-position="97">
+          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
+          <folding>
+            <element signature="e#145#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider_v4/BaiKeSpider/2019-06-20.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider_v4/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider_v4/BaiKeSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1355">
+          <caret line="206" column="29" selection-start-line="206" selection-start-column="29" selection-end-line="206" selection-end-column="29" />
           <folding>
             <element signature="e#145#160#0" expanded="true" />
           </folding>
@@ -728,9 +737,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="230">
-            <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="228">
+            <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           </first_editor>
           <second_editor />
         </state>
