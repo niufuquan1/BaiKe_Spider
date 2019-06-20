@@ -40,7 +40,7 @@ class ArgParse(object):
         parser.add_argument("-d", "-deep", action="store", dest="deep", default=settings.defaultDeep, type=int,
                             help="Input a deep for the Spider. default=1")
         parser.add_argument("-k", "-key", action="store", dest="keyword", help="Input a keyword to search in baike")
-        parser.add_argument("-f", "-logfile", action="store", dest="logfile", default="BaiKeSpider.log",
+        parser.add_argument("-f", "-logfile", action="store", dest="logfile", default="BaiKeSpider",
                             help="Input a logfile name for the Spider. default=Spider.log")
         parser.add_argument("-l", "-loglevel", action="store", dest="loglevel", default=1, type=int,
                             help="Input a loglevel for the Spider. default=1")

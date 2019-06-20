@@ -23,6 +23,7 @@
           <option value="Spider_v2.Log.DEFAULT_LOG_FILENAME" />
           <option value="Spider_v2.Log.DEFAULT_LOG_LEVEL" />
           <option value="Log" />
+          <option value="ThreadPool" />
         </list>
       </option>
     </inspection_tool>
