@@ -16,11 +16,11 @@
 不添加不影响程序运行
 测试可用命令：`python Scheduler.py -k uestc -d 2 -l 3 -f myLog -s`
 ---
-###版本3：
+### 版本3：
 实现如下参数：-u url -d deep -k keyword -l loglevel -f logfile -s -t threadnumber,
 url默认入口是https://baike.baidu.com/。-d 默认为 1；-f为日志名称，默认为BaiKeSpider；-l为日志等级，默认为1；
 -s是判断是否进行自测，即doctest，添加该参数则进行，不添加不影响程序运行,但是添加后只进行自测！-t为线程池中维护线程的个数，默认为5
 测试可用命令：`python BaiKeSpider.py -d 2 -t 3 -k uestc -l 4 -f mylogfile` 或者`python BaiKeSpider.py -s`
 ---
-###版本4：
+### 版本4：
 正在完成中，主要是把多义词的相关解释爬取到并持久化，完成每十秒显示进度信息的功能
