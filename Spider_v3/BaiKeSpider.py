@@ -182,10 +182,8 @@ class Spider(object):
         except Exception as e:
             toLogger(self.logger, self.loglevel, e, True)
             return -1
-        else:
-            if self.loglevel > 3:
-                toLogger(self.logger, self.loglevel, '分析网页 % s成功' % url)
-        return True
+        if self.loglevel > 3:
+            toLogger(self.logger, self.loglevel, '分析网页 % s成功' % url)
 
     def parse(self, url, htmlCont, keyword, deep):
         db = MongoDB(self.opts, self.logger)

@@ -1,0 +1,122 @@
+Spider 2019-06-21 00:22:49,320 INFO 抓取网页 https://baike.baidu.com/ 成功
+Spider 2019-06-21 00:22:49,535 INFO 分析网页 https://baike.baidu.com/成功
+Spider 2019-06-21 00:22:49,898 INFO 抓取网页 https://baike.baidu.com/item/秒懂星课堂 成功
+Spider 2019-06-21 00:22:50,129 INFO 分析网页 https://baike.baidu.com/item/秒懂星课堂成功
+Spider 2019-06-21 00:22:50,425 INFO 抓取网页 https://baike.baidu.com/item/秒懂大师说 成功
+Spider 2019-06-21 00:22:50,538 INFO 分析网页 https://baike.baidu.com/item/秒懂大师说成功
+Spider 2019-06-21 00:22:51,632 INFO 抓取网页 https://baike.baidu.com/item/秒懂看瓦特 成功
+Spider 2019-06-21 00:22:51,764 INFO 分析网页 https://baike.baidu.com/item/秒懂看瓦特成功
+Spider 2019-06-21 00:22:52,053 INFO 抓取网页 https://baike.baidu.com/item/秒懂五千年 成功
+Spider 2019-06-21 00:22:52,156 INFO 分析网页 https://baike.baidu.com/item/秒懂五千年成功
+Spider 2019-06-21 00:22:52,399 INFO 抓取网页 https://baike.baidu.com/item/秒懂全视界 成功
+Spider 2019-06-21 00:22:52,470 INFO 分析网页 https://baike.baidu.com/item/秒懂全视界成功
+Spider 2019-06-21 00:22:53,255 INFO 抓取网页 https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91%EF%BC%9A%E5%A4%9A%E4%B9%89%E8%AF%8D 成功
+Spider 2019-06-21 00:22:53,356 INFO 分析网页 https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91%EF%BC%9A%E5%A4%9A%E4%B9%89%E8%AF%8D成功
+Spider 2019-06-21 00:22:53,580 INFO 抓取网页 https://baike.baidu.com/item/%E4%B9%89%E9%A1%B9 成功
+Spider 2019-06-21 00:22:53,665 INFO 分析网页 https://baike.baidu.com/item/%E4%B9%89%E9%A1%B9成功
+Spider 2019-06-21 00:22:53,933 INFO 抓取网页 https://baike.baidu.com/item/python?force=1 成功
+Spider 2019-06-21 00:22:53,972 ERROR 'NoneType' object has no attribute 'get_text'
+Spider 2019-06-21 00:22:53,974 ERROR Traceback (most recent call last):
+  File "BaiKeSpider.py", line 211, in parse
+    summary = soup.find(name='div', attrs={"class": "lemma-summary"}).get_text()
+AttributeError: 'NoneType' object has no attribute 'get_text'
+
+Spider 2019-06-21 00:22:53,976 INFO 分析网页 https://baike.baidu.com/item/python?force=1成功
+Spider 2019-06-21 00:22:54,708 INFO 抓取网页 https://baike.baidu.com/item/Python/22164520#viewPageContent 成功
+Spider 2019-06-21 00:22:54,750 INFO 分析网页 https://baike.baidu.com/item/Python/22164520#viewPageContent成功
+Spider 2019-06-21 00:22:55,840 INFO 抓取网页 https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80/7073760 成功
+Spider 2019-06-21 00:22:55,908 INFO 分析网页 https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80/7073760成功
+Spider 2019-06-21 00:22:56,694 INFO 抓取网页 https://baike.baidu.com/item/Web/150564 成功
+Spider 2019-06-21 00:22:56,792 INFO 分析网页 https://baike.baidu.com/item/Web/150564成功
+Spider 2019-06-21 00:22:58,505 INFO 抓取网页 https://baike.baidu.com/item/%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9/2259975 成功
+Spider 2019-06-21 00:22:58,557 INFO 分析网页 https://baike.baidu.com/item/%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9/2259975成功
+Spider 2019-06-21 00:22:59,287 INFO 抓取网页 https://baike.baidu.com/item/%E5%9C%A3%E8%AF%9E%E8%8A%82/127881 成功
+Spider 2019-06-21 00:22:59,512 INFO 分析网页 https://baike.baidu.com/item/%E5%9C%A3%E8%AF%9E%E8%8A%82/127881成功
+Spider 2019-06-21 00:22:59,800 INFO 抓取网页 https://baike.baidu.com/item/%E6%95%99%E5%AD%A6 成功
+Spider 2019-06-21 00:22:59,876 INFO 分析网页 https://baike.baidu.com/item/%E6%95%99%E5%AD%A6成功
+Spider 2019-06-21 00:23:00,155 INFO 抓取网页 https://baike.baidu.com/item/Unix%20shell 成功
+Spider 2019-06-21 00:23:00,242 INFO 分析网页 https://baike.baidu.com/item/Unix%20shell成功
+Spider 2019-06-21 00:23:00,530 INFO 抓取网页 https://baike.baidu.com/item/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80/2317999 成功
+Spider 2019-06-21 00:23:00,615 INFO 分析网页 https://baike.baidu.com/item/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80/2317999成功
+Spider 2019-06-21 00:23:00,886 INFO 抓取网页 https://baike.baidu.com/item/TIOBE 成功
+Spider 2019-06-21 00:23:00,958 INFO 分析网页 https://baike.baidu.com/item/TIOBE成功
+Spider 2019-06-21 00:23:01,266 INFO 抓取网页 https://baike.baidu.com/item/%E6%8E%92%E8%A1%8C%E6%A6%9C/4895 成功
+Spider 2019-06-21 00:23:01,335 INFO 分析网页 https://baike.baidu.com/item/%E6%8E%92%E8%A1%8C%E6%A6%9C/4895成功
+Spider 2019-06-21 00:23:01,640 INFO 抓取网页 https://baike.baidu.com/item/%E7%AE%80%E6%B4%81 成功
+Spider 2019-06-21 00:23:01,703 INFO 分析网页 https://baike.baidu.com/item/%E7%AE%80%E6%B4%81成功
+Spider 2019-06-21 00:23:01,966 INFO 抓取网页 https://baike.baidu.com/item/%E8%AF%BE%E7%A8%8B 成功
+Spider 2019-06-21 00:23:02,052 INFO 分析网页 https://baike.baidu.com/item/%E8%AF%BE%E7%A8%8B成功
+Spider 2019-06-21 00:23:02,358 INFO 抓取网页 https://baike.baidu.com/item/%E5%8D%A1%E8%80%90%E5%9F%BA%E6%A2%85%E9%9A%86%E5%A4%A7%E5%AD%A6 成功
+Spider 2019-06-21 00:23:02,360 ERROR 'NoneType' object has no attribute 'find'
+Spider 2019-06-21 00:23:02,361 ERROR Traceback (most recent call last):
+  File "BaiKeSpider.py", line 210, in parse
+    title = soup.find('dd', class_='lemmaWgt-lemmaTitle-title').find('h1').get_text()
+AttributeError: 'NoneType' object has no attribute 'find'
+
+Spider 2019-06-21 00:23:02,363 INFO 分析网页 https://baike.baidu.com/item/%E5%8D%A1%E8%80%90%E5%9F%BA%E6%A2%85%E9%9A%86%E5%A4%A7%E5%AD%A6成功
+Spider 2019-06-21 00:23:02,557 INFO 抓取网页 https://baike.baidu.com/item/%E6%8E%A5%E5%8F%A3 成功
+Spider 2019-06-21 00:23:02,559 ERROR 'NoneType' object has no attribute 'find'
+Spider 2019-06-21 00:23:02,559 ERROR Traceback (most recent call last):
+  File "BaiKeSpider.py", line 210, in parse
+    title = soup.find('dd', class_='lemmaWgt-lemmaTitle-title').find('h1').get_text()
+AttributeError: 'NoneType' object has no attribute 'find'
+
+Spider 2019-06-21 00:23:02,561 INFO 分析网页 https://baike.baidu.com/item/%E6%8E%A5%E5%8F%A3成功
+Spider 2019-06-21 00:23:03,084 INFO 抓取网页 https://baike.baidu.com/item/OpenCV 成功
+Spider 2019-06-21 00:23:03,173 INFO 分析网页 https://baike.baidu.com/item/OpenCV成功
+Spider 2019-06-21 00:23:03,434 INFO 抓取网页 https://baike.baidu.com/item/%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/7079489 成功
+Spider 2019-06-21 00:23:03,503 INFO 分析网页 https://baike.baidu.com/item/%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/7079489成功
+Spider 2019-06-21 00:23:03,948 INFO 抓取网页 https://baike.baidu.com/item/%E5%B7%A5%E7%A8%8B 成功
+Spider 2019-06-21 00:23:04,021 INFO 分析网页 https://baike.baidu.com/item/%E5%B7%A5%E7%A8%8B成功
+Spider 2019-06-21 00:23:04,244 INFO 抓取网页 https://baike.baidu.com/item/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F 成功
+Spider 2019-06-21 00:23:04,246 ERROR 'NoneType' object has no attribute 'find'
+Spider 2019-06-21 00:23:04,247 ERROR Traceback (most recent call last):
+  File "BaiKeSpider.py", line 210, in parse
+    title = soup.find('dd', class_='lemmaWgt-lemmaTitle-title').find('h1').get_text()
+AttributeError: 'NoneType' object has no attribute 'find'
+
+Spider 2019-06-21 00:23:04,250 INFO 分析网页 https://baike.baidu.com/item/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F成功
+Spider 2019-06-21 00:23:04,881 INFO 抓取网页 https://baike.baidu.com/item/%E8%AF%AD%E8%A8%80/2291095 成功
+Spider 2019-06-21 00:23:04,952 INFO 分析网页 https://baike.baidu.com/item/%E8%AF%AD%E8%A8%80/2291095成功
+Spider 2019-06-21 00:23:05,223 INFO 抓取网页 https://baike.baidu.com/item/Perl 成功
+Spider 2019-06-21 00:23:05,316 INFO 分析网页 https://baike.baidu.com/item/Perl成功
+Spider 2019-06-21 00:23:05,925 INFO 抓取网页 https://baike.baidu.com/item/%E5%8A%A8%E6%80%81%E8%AF%AD%E8%A8%80 成功
+Spider 2019-06-21 00:23:05,988 INFO 分析网页 https://baike.baidu.com/item/%E5%8A%A8%E6%80%81%E8%AF%AD%E8%A8%80成功
+Spider 2019-06-21 00:23:06,247 INFO 抓取网页 https://baike.baidu.com/item/if%E8%AF%AD%E5%8F%A5 成功
+Spider 2019-06-21 00:23:06,326 INFO 分析网页 https://baike.baidu.com/item/if%E8%AF%AD%E5%8F%A5成功
+Spider 2019-06-21 00:23:06,553 INFO 抓取网页 https://baike.baidu.com/item/%E7%BC%A9%E8%BF%9B/7337492 成功
+Spider 2019-06-21 00:23:06,663 INFO 分析网页 https://baike.baidu.com/item/%E7%BC%A9%E8%BF%9B/7337492成功
+Spider 2019-06-21 00:23:06,895 INFO 抓取网页 https://baike.baidu.com/item/%7B%7D 成功
+Spider 2019-06-21 00:23:06,945 INFO 分析网页 https://baike.baidu.com/item/%7B%7D成功
+Spider 2019-06-21 00:23:07,507 INFO 抓取网页 https://baike.baidu.com/item/%E7%BC%A9%E8%BF%9B 成功
+Spider 2019-06-21 00:23:07,557 INFO 分析网页 https://baike.baidu.com/item/%E7%BC%A9%E8%BF%9B成功
+Spider 2019-06-21 00:23:08,204 INFO 抓取网页 https://baike.baidu.com/item/MATLAB 成功
+Spider 2019-06-21 00:23:08,359 INFO 分析网页 https://baike.baidu.com/item/MATLAB成功
+Spider 2019-06-21 00:23:08,661 INFO 抓取网页 https://baike.baidu.com/item/MATLAB/263035 成功
+Spider 2019-06-21 00:23:08,807 INFO 分析网页 https://baike.baidu.com/item/MATLAB/263035成功
+Spider 2019-06-21 00:23:09,754 INFO 抓取网页 https://baike.baidu.com/item/%E7%A7%91%E5%AD%A6/10406 成功
+Spider 2019-06-21 00:23:09,935 INFO 分析网页 https://baike.baidu.com/item/%E7%A7%91%E5%AD%A6/10406成功
+Spider 2019-06-21 00:23:10,194 INFO 抓取网页 https://baike.baidu.com/item/%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1 成功
+Spider 2019-06-21 00:23:10,270 INFO 分析网页 https://baike.baidu.com/item/%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1成功
+Spider 2019-06-21 00:23:10,881 INFO 抓取网页 https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1 成功
+Spider 2019-06-21 00:23:10,971 INFO 分析网页 https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1成功
+Spider 2019-06-21 00:23:11,465 INFO 抓取网页 https://baike.baidu.com/item/Perl%E8%AF%AD%E8%A8%80/1346108 成功
+Spider 2019-06-21 00:23:11,529 INFO 分析网页 https://baike.baidu.com/item/Perl%E8%AF%AD%E8%A8%80/1346108成功
+Spider 2019-06-21 00:23:11,770 INFO 抓取网页 https://baike.baidu.com/item/%E8%A7%A3%E9%87%8A%E5%99%A8 成功
+Spider 2019-06-21 00:23:11,839 INFO 分析网页 https://baike.baidu.com/item/%E8%A7%A3%E9%87%8A%E5%99%A8成功
+Spider 2019-06-21 00:23:12,394 INFO 抓取网页 https://baike.baidu.com/item/JIT 成功
+Spider 2019-06-21 00:23:12,396 ERROR 'NoneType' object has no attribute 'find'
+Spider 2019-06-21 00:23:12,397 ERROR Traceback (most recent call last):
+  File "BaiKeSpider.py", line 210, in parse
+    title = soup.find('dd', class_='lemmaWgt-lemmaTitle-title').find('h1').get_text()
+AttributeError: 'NoneType' object has no attribute 'find'
+
+Spider 2019-06-21 00:23:12,399 INFO 分析网页 https://baike.baidu.com/item/JIT成功
+Spider 2019-06-21 00:23:13,054 INFO 抓取网页 https://baike.baidu.com/item/PyPy 成功
+Spider 2019-06-21 00:23:13,122 INFO 分析网页 https://baike.baidu.com/item/PyPy成功
+Spider 2019-06-21 00:23:13,780 INFO 抓取网页 https://baike.baidu.com/item/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/2262089 成功
+Spider 2019-06-21 00:23:14,620 INFO 分析网页 https://baike.baidu.com/item/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/2262089成功
+Spider 2019-06-21 00:23:15,099 INFO 抓取网页 https://baike.baidu.com/item/Lisp/22083 成功
+Spider 2019-06-21 00:23:15,191 INFO 分析网页 https://baike.baidu.com/item/Lisp/22083成功
+Spider 2019-06-21 00:23:15,925 INFO 抓取网页 https://baike.baidu.com/item/Haskell 成功
+Spider 2019-06-21 00:23:16,028 INFO 分析网页 https://baike.baidu.com/item/Haskell成功

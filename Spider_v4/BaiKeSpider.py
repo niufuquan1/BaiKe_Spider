@@ -123,6 +123,9 @@ class Spider(object):
         self.haveUrls = []  # 抓取的网页放入列表,防止重复抓取
         self.opts = opts
         self.encoding = 'utf-8'
+        self.notUrls = [
+            'https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91%EF%BC%9A%E6%9C%AC%E4%BA%BA%E8%AF%8D%E6%9D%A1%E7%BC%96%E8%BE%91%E6%9C%8D%E5%8A%A1/22442459?bk_fr=pcFooter',
+            'https://baike.baidu.com/item/百度百科：热词版本', 'https://baike.baidu.com/item/百科热词团队']
 
     def _hasGraber(self, url):
         '''
@@ -130,7 +133,7 @@ class Spider(object):
         :param url:传入的url
         :return:
         '''
-        return (True if url in self.haveUrls else False)
+        return ((True if url in self.haveUrls else False) or (True if url in self.notUrls else False))
 
     def getPageContent(self, url, keyword, deep, flag):
         '''
@@ -185,9 +188,8 @@ class Spider(object):
         except Exception as e:
             toLogger(self.logger, 2, e, True)
             return -1
-        else:
-            if self.loglevel > 3:
-                toLogger(self.logger, self.loglevel, '分析网页 % s成功' % url)
+        if self.loglevel > 3:
+            toLogger(self.logger, self.loglevel, '分析网页 % s成功' % url)
         return True
 
     def parse(self, url, htmlCont, keyword, deep):
