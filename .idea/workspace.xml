@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da5a8e26-8f52-456d-a5a4-db7923f1d197" name="Default Changelist" comment="添加了演示链接">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spider_v3/BaiKeSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider_v3/BaiKeSpider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spider_v4/BaiKeSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spider_v4/BaiKeSpider.py" afterDir="false" />
-    </list>
+    <list default="true" id="da5a8e26-8f52-456d-a5a4-db7923f1d197" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="584">
-                <caret line="46" selection-start-line="46" selection-end-line="46" />
+                <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               </first_editor>
               <second_editor />
             </state>
@@ -369,7 +363,7 @@
       <workItem from="1561000123897" duration="15567000" />
       <workItem from="1561017673088" duration="22287000" />
       <workItem from="1561046745125" duration="1703000" />
-      <workItem from="1561049051175" duration="230000" />
+      <workItem from="1561049051175" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="第一版&#10;Spider1.py -u url -d deep -k keywords&#10;注：没有对多义词进行处理&#10;如果没有输入url，默认入口url为https://baike.baidu.com">
       <created>1560924543406</created>
@@ -420,11 +414,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561042375503</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加了演示链接">
+      <created>1561049365477</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561049365477</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145578000" />
+    <option name="totallyTimeSpent" value="145702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,7 +475,8 @@
     <MESSAGE value="版本3：实现如下参数：-u url -d deep -k keyword -l loglevel -f logfile -s -t threadnumber,&#10;url默认入口是https://baike.baidu.com/。-d 默认为 1；-f为日志名称，默认为BaiKeSpider；-l为日志等级，默认为1；&#10;-s是判断是否进行自测，即doctest，添加该参数则进行，不添加不影响程序运行,但是添加后只进行自测！-t为线程池中维护线程的个数，默认为5&#10;测试可用命令：python BaiKeSpider.py -d 2 -t 3 -k uestc -l 4 -f mylogfile 或者python BaiKeSpider.py -s" />
     <MESSAGE value="修改了一下markdown的格式" />
     <MESSAGE value="第四版 基本完毕，修复了一些bug 但最后一个每十秒打印进度信息未完成，其他完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="第四版 基本完毕，修复了一些bug 但最后一个每十秒打印进度信息未完成，其他完成" />
+    <MESSAGE value="添加了演示链接" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了演示链接" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BaiKe_Spider$Spider.coverage" NAME="Spider Coverage Results" MODIFIED="1560765171822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -669,7 +671,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="584">
-            <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           </first_editor>
           <second_editor />
         </state>
